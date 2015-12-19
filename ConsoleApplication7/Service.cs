@@ -9,10 +9,12 @@ namespace ConsoleApplication7
     public interface IService
     {
         int Foo { get; }
+		int Bang { get; }
     }
 
     public class Service : IService
     {
         public int Foo { get; } = 5;
+		public int Bang { get; } = 6;
     }
 }
