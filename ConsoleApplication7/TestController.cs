@@ -16,6 +16,9 @@ namespace ConsoleApplication7
             _service = service;
         }
 
+		
+		
+		
         [HttpGet, Route("")]
         public IHttpActionResult Test() => Ok(_service.Foo);
     }
